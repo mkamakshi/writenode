@@ -10,7 +10,6 @@ export const Header = () => {
  useEffect(()=>{
   getRedirectResult(auth)
   .then((result) => {
-     console.log(result);
      
   });
  }, []);
